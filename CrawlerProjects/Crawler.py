@@ -773,9 +773,9 @@ table = html.xpath('//*[@id="datatable-1"]/thead')[0]
 tbody = html.xpath('//*[@id="datatable-1"]/tbody')[0]
 row = table.xpath('//*[@id="datatable-1"]/thead/tr//text()')
 result = {
-    'RANKING': [],
-    'SCORES'：[]
-}
+    "RANKING": [],
+    "SCORES" ：[]
+    }
 
 Rank = []
 Name_Country_Region = []
