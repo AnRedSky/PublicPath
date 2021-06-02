@@ -774,7 +774,8 @@ tbody = html.xpath('//*[@id="datatable-1"]/tbody')[0]
 row = table.xpath('//*[@id="datatable-1"]/thead/tr//text()')
 result = {
     "RANKING": [],
-    "SCORES" ：[]
+    "SCORES" : []   
+
     }
 
 Rank = []
